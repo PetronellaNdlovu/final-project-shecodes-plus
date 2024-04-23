@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Final Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input
+            type="submit"
+            value="search"
+            class="search-button"
+            id="search-button"
+          />
+        </form>
+      </header>
+      <main>
+        <div class="data" id="data">
+          <div>
+            <h1 class="city" id="city"></h1>
+            <p class="details" id="details">
+              <span id="day"></span>
+              <br />
+              <span class="weather-description" id="weather-description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong> Wind:
+              <strong id="wind"></strong>
+            </p>
+          </div>
+
+          <div class="temperature" id="temperature">
+            <div class="temperature-icon" id="temperature-icon">☀️</div>
+            <div class="temperature-value" id="temperature-value"></div>
+            <div class="temperature-unit" id="temperature-unit">°C</div>
+          </div>
+        </div>
+        <hr />
+        <p class="days-forecast">Temperature  |  Precipitation | Wind </p>
+        <div class="weather-forecast" id="weather-forecast"></div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/PetronellaNdlovu" target="_blank"
+          >Petronella Ndlovu</a
+        >
+        is open-sourced on
+        <a
+          href="https://github.com/PetronellaNdlovu/final-project-shecodes-plus"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a
+          href="https://final-project-shecodes-plus-petronella.netlify.app/"
+          target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+<strong></strong

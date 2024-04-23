@@ -1,0 +1,138 @@
+body {
+  background-color: #680747;
+}
+header {
+  border-bottom: 0px solid black;
+  padding-bottom: 20px;
+}
+main {
+  padding: 0 0 20px 0;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  background: #f70776;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px black;
+  border-radius: 30px;
+}
+
+.search-input {
+  background-color: black;
+  border: black;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 680px;
+  min-width: 50px;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  background: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 15px 30px;
+  color: white;
+  margin-left: 5px;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.temperature {
+  display: flex;
+}
+
+.temperature-value {
+  font-size: 70px;
+}
+
+.temperature-icon {
+  width: 120%;
+  margin-top: -20px;
+  margin-right: 30px;
+}
+
+.temperature-unit {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.city {
+  margin: 0;
+  font-size: clamp(14px, 3vw, 38px);
+  line-height: 48px;
+}
+
+.details {
+  font-size: clamp(12px, 1vw, 20px);
+  line-height: 26px;
+}
+
+strong {
+  color: yellow;
+}
+
+.weather-description {
+  text-transform: capitalize;
+}
+
+footer {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  text-align: center;
+  font-size: clamp(9px, 1vw, 14px);
+  color: black;
+}
+
+hr {
+  border: 0px solid black;
+  border-radius: 1px;
+}
+
+.days-forecast {
+  margin: 3px;
+  text-align: center;
+  font-size: clamp(12px, 1vw, 18px);
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.forecast-days {
+  font-size: clamp(12px, 1vw, 18px);
+}
+
+.weather-forecast-temperature {
+  text-align: center;
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+}
+
+.max-temp {
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.weather-forecast-icon {
+  width: 70%;
+  margin-top: -10px;
+}
